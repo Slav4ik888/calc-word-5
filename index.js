@@ -60,3 +60,9 @@ document.getElementById("absent-chars").addEventListener("input", (e) => {
   }
   calculate(selectedChars);
 }, false);
+
+
+const $slav4ik888 = document.getElementById("slav4ik888");
+$slav4ik888.textContent = new Date().getFullYear();
+
+// git add . && git commit -m "2024-04-30" && git push -u origin main

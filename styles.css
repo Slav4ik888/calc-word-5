@@ -10,12 +10,13 @@ body {
   align-items: center;
   height: 100vh;
   font-family: 'Roboto-Medium', 'Roboto', sans-serif;
-  padding: 40px;
+  padding: 40px 2%;
   background: #666;
 }
 
 .chars-container {
   width: 600px;
+  max-width: 100%;
 }
 
 
@@ -104,4 +105,21 @@ body {
   top: -6px;
   font-size: 15px;
   color: #ccbf00;
+}
+
+/* FOOTER */
+.footer {
+  color: '#717171';
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.github-link {
+  text-decoration: none;
+  color: rgb(131, 131, 131);
+}
+
+.github-link:hover {
+  text-decoration: underline;
+  color: white;
 }
